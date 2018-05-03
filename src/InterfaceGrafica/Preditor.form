@@ -28,19 +28,31 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Component id="lblImagem" min="-2" pref="286" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="btnSelecionarImagem" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="txtCaminhoImagem" min="-2" pref="568" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
-                      <Component id="lblImagem" min="-2" pref="286" max="-2" attributes="0"/>
-                  </Group>
+                  <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnExtrairCaracteristicas" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblLaranjaBart" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblAzulCalcao" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblAzulSapato" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="27" max="32767" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblAzulHomer" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblMarronHomer" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblSapatoHomer" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="btnSelecionarImagem" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="txtCaminhoImagem" min="-2" pref="655" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="23" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -53,8 +65,33 @@
                   <Component id="txtCaminhoImagem" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="lblImagem" min="-2" pref="280" max="-2" attributes="0"/>
-              <EmptySpace pref="117" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblImagem" min="-2" pref="280" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="btnExtrairCaracteristicas" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblLaranjaBart" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblAzulHomer" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblAzulCalcao" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblMarronHomer" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblAzulSapato" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblSapatoHomer" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="159" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -81,6 +118,36 @@
           </Border>
         </Property>
       </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnExtrairCaracteristicas">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Extrair Caracter&#xed;sticas"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnExtrairCaracteristicasActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Caracter&#xed;sticas do  Bart"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Caracter&#xed;sticas do Homer"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblLaranjaBart">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAzulCalcao">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAzulSapato">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAzulHomer">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMarronHomer">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSapatoHomer">
     </Component>
   </SubComponents>
 </Form>
